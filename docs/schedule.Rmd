@@ -1,0 +1,446 @@
+# Schedule
+
+Below is the tentative schedule for the class. The dates are subject to change at the instructor's discretion. When possible, required readings should be completed prior to class.
+
+<br />
+
+## Calendar
+
+<br />
+
+<table class="table">
+
+<thead>
+<tr>
+<th style="width:10%;text-align:center"></th>
+<th style="width:10%;">Date</th>
+<th style="width:10%;text-align:center">Reading</th>
+<th style="width:50%;">Topic</th>
+<th style="width:10%;text-align:center">Notes</th>
+<th style="width:10%;text-align:center">Script</th>
+</tr>
+</thead>
+
+<!-- <thead> -->
+<!-- <tr> -->
+<!-- <th style="width:10%;text-align:center"></th> -->
+<!-- <th style="width:10%;">T/R</th> -->
+<!-- <th style="width:10%;">M/W</th> -->
+<!-- <th style="width:10%;text-align:center">Reading</th> -->
+<!-- <th style="width:40%;">Topic</th> -->
+<!-- <th style="width:10%;text-align:center">Notes</th> -->
+<!-- <th style="width:10%;text-align:center">Script</th> -->
+<!-- </tr> -->
+<!-- </thead> -->
+
+<tbody>
+
+<!-- <span style="margin-left:5px; color:#5a067d;font-size:12px;">*[Notes and Script file updated 09-24-2019]*</span></td> -->
+
+
+
+<tr>
+<td align="center" style="vertical-align:middle;">&nbsp;</td>
+<!-- <td>Sept. 03</td> -->
+<td>Sept. 08</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td>Welcome to EPsy 8251</td>
+<td align="center" style="vertical-align:middle;">
+  <span class="fas fa-link" style="color: #f1f1f1; font-size: 20px;"></span>
+</td>
+<td align="center" style="vertical-align:middle;">
+  <span class="fa fa-code" style="color: #f1f1f1; font-size: 20px;"></span>
+</td>
+</tr>
+
+
+<!-- Unit 01: INTRODUCTION TO STATISTICAL COMPUTING -->
+
+<tr>
+<td colspan="7"><b>Unit 01: Introduction to Statistical Computing</b></td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 05</td> -->
+<td>Sept. 13</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td>Introduction to R and RStudio</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/01-introduction-to-r.html)
+</td>
+<td align="center" style="vertical-align:middle;">
+  <span class="fa fa-code" style="color: #f1f1f1; font-size: 20px;"></span>
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 10</td> -->
+<td>Sept. 15</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td>Data Wrangling with dplyr</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](http://zief0002.github.io/epsy-8251/notes/02-data-wrangling-with-dplyr.html)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/02-data-wrangling-with-dplyr.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 12</td> -->
+<td>Sept. 20</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td>Plotting with ggplot2</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](http://zief0002.github.io/epsy-8251/notes/03-plotting-with-ggplot2.html)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/03-plotting-with-ggplot2.R)
+</td>
+</tr>
+
+
+<!-- Unit 02: REGRESSION BASICS -->
+
+<tr>
+<td colspan="7"><b>Unit 02: Regression Basics</b></td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 17</td> -->
+<td>Sept. 22</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Simple Linear Regression: Description
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/slrd.html#slrd)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/04-simple-linear-regression-description.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 19</td> -->
+<td>Sept. 27</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 24</td> -->
+<td>Sept. 29</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;">Ordinary Least Squares (OLS) Estimation
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/ordinary-least-squares-ols-estimation.html#ordinary-least-squares-ols-estimation)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/05-ordinary-least-squares-estimation.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 26</td> -->
+<td>Oct. 04</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Correlation and Standardized Regression</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/cor.html#cor)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/06-correlation-and-standardized-regression.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 01</td> -->
+<td>Oct. 06</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 03</td> -->
+<td>Oct. 11</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Coefficient-Level Inference</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/coefinf.html#coefinf)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/07-coefficient-level-inference.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 08</td> -->
+<td>Oct. 13</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 10</td> -->
+<td>Oct. 18</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Model-Level Inference</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/modinf.html#modinf)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/08-model-level-inference.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 15</td> -->
+<td>Oct. 20</td>
+</tr>
+
+
+<!-- Unit 03: DEEPER UNDERSTANDING -->
+
+
+<tr>
+<td colspan="7"><b>Unit 03: Deeper Understanding</b></td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 17</td> -->
+<td>Oct. 25</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Introduction to Multiple Linear Regression</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/multreg.html#multreg)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/09-introduction-to-multiple-regression.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 22</td> -->
+<td>Oct. 27</td>
+</tr>
+
+<!-- UNDERSTANDING STATISTICAL CONTROL -->
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 24</td> -->
+<td>Nov. 01</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Understanding Statistical Control</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/statcontrol.html#statcontrol)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/10-understanding-statistical-control.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 29</td> -->
+<td>Nov. 03</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Oct. 31</td> -->
+<td>Nov. 08</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Assumptions of the Regression Model</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/assumptions.html#assumptions)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/11-distributional-assumptions-underlying-the-regression-model.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 05</td> -->
+<td>Nov. 10</td>
+</tr>
+
+
+
+
+
+<!-- Unit 04: EXTENDING THE REGRESSION MODEL -->
+
+<tr>
+<td colspan="7"><b>Unit 04: Extending the Regression Model</b></td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 07</td> -->
+<td>Nov. 15</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Dummy Coding Categorical Predictors</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/dummy.html#dummy)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/12-dummy-coding-categorical-predictors.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 12</td> -->
+<td>Nov. 17</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 19</td> -->
+<td>Nov. 22</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;">Polychotomous Categorical Predictors</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/14-polychotomous-categorical-predictors.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 24</td> -->
+<td>Nov. 24</td>
+<td align="center" style="vertical-align:middle;">
+  <!-- <a href="preparation.html#control"> -->
+  <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
+  <!-- </a> -->
+</td>
+<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day*
+<td align="center" style="vertical-align:middle;"></td>
+<td align="center" style="vertical-align:middle;"></td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 19</td> -->
+<td>Nov. 29</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;">Polychotomous Categorical Predictors</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/14-polychotomous-categorical-predictors.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 26</td> -->
+<td>Dec. 01</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">Introduction to Interaction Effects</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-01.html#interaction-01)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/15-introduction-to-interaction-effects.R)
+</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Dec. 03</td> -->
+<td>Dec. 06</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Dec. 09</td> -->
+<td>Dec. 08</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
+</td>
+<td style="vertical-align:middle;" rowspan="2">More Interaction Effects</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-02.html#interaction-02)
+</td>
+<td align="center" style="vertical-align:middle;" rowspan="2">
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/16-more-interaction-effects.R)
+</td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<td>Dec. 13</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<td>Dec. 15</td>
+<td align="center" style="vertical-align:middle;"></td>
+<td style="vertical-align:middle;">TBA</td>
+<td align="center" style="vertical-align:middle;"></td>
+<td align="center" style="vertical-align:middle;"></td>
+</tr>
+
+</tbody>
+</table>    
+

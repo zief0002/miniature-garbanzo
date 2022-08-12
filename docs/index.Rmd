@@ -1,0 +1,95 @@
+---
+title: "EPsy 8251"
+output:
+  rmdformats::material:
+    highlight: kate
+    css: ["assets/website-style.css", "assets/font-awesome-all.css"]
+---
+
+
+```{r knitr_init, include = FALSE}
+source("assets/codebook-setup.R")
+```
+
+# Welcome to EPsy 8251
+
+<img src="img/epsy-8251-logo.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" />
+
+
+In this class, we will work together to develop a learning community that is inclusive and respectful, and where every student is supported in the learning process. As a class full of diverse individuals (reflected by differences in race, culture, age, religion, gender identity, sexual orientation, socioeconomic background, abilities, professional goals, and other social identities and life experiences) I expect that different students may need different things to support and promote their learning. The TAs and I will do everything we can to help with this, but as we only know what we know, we need you to communicate with us if things are not working for you or you need something we are not providing. I hope you all feel comfortable in helping to promote an inclusive classroom through respecting one another's individual differences, speaking up, and challenging oppressive/problematic ideas. Finally, I look forward to learning from each of you and the experiences you bring to the class. 
+
+<br />
+
+
+### Instructor {-}
+
+Andrew Zieffler ([zief0002@umn.edu](mailto://zief0002@umn.edu)) <br />
+<!-- **Virtual Office:** [Zoom](https://umn.zoom.us/my/zieffler)  <br /> -->
+**Physical Office:** [Education Sciences Building 178](https://www.google.com/maps/place/Education+Sciences+Building/@44.9784043,-93.2394586,15z/data=!4m2!3m1!1s0x0:0x45656dac481b9150)  <br />
+**Office Hours:** Monday 9:00 AM&ndash;10:00 AM; and by appointment <br />
+**Virtual Office:** If you want to meet virtually, send me a Google calendar invite and include a Zoom link.
+
+<br />
+
+
+### Teaching Assistant {-}
+
+Kyle Stagnaro ([stagn011@umn.edu](mailto://stagn011@umn.edu))  <br />
+<!-- **Virtual Office:** [Zoom](https://umn.zoom.us/j/92506698122?pwd=MkJFNFVPb2dDZ3JKdTF1Vzh4M1NtQT09)  <br /> -->
+**Physical Office:** [Education Sciences Building](https://www.google.com/maps/place/Education+Sciences+Building/@44.9784043,-93.2394586,15z/data=!4m2!3m1!1s0x0:0x45656dac481b9150)  <br />
+**Office Hours:** Thursday 1:00 PM&ndash;2:00 PM; and by appointment
+
+<br />
+
+
+### Classroom
+
+- Monday/Wednesday (2:30&ndash;3:45): [Scott Hall 4](https://campusmaps.umn.edu/scott-hall) 
+
+
+<br />
+
+
+### Course Content and Syllabus {-}
+
+- The course syllabus is available  [here](https://github.com/zief0002/epsy-8251/raw/main/syllabus/f22-8251-syllabus.pdf).
+- [Message from Snoop Dogg](https://t.co/5X88O0DBUZ?amp=1) about the syllabus
+
+<img src="img/units.png" />
+
+
+<br />
+
+
+### Textbooks {-}
+
+The course textbook is available via the University of Minnesota library.
+
+- [Applied regression: An introduction](https://login.ezproxy.lib.umn.edu/login?url=http://methods.sagepub.com/book/applied-regression-an-introduction-second-edition) [required]
+
+There are two other free, online books that the lectures for the class are drawn from:
+
+- [Computational Toolkit for Educational Scientists](https://zief0002.github.io/toolkit/)
+- [Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/)
+
+<br />
+
+
+```{r child = 'schedule.Rmd'}
+```
+
+
+```{r child = 'assignments.Rmd'}
+```
+
+
+```{r child = 'data.Rmd'}
+```
+
+
+```{r child = 'readings.Rmd'}
+```
+
+
+
+
