@@ -7,13 +7,16 @@ output:
 ---
 
 
-```{r knitr_init, include = FALSE}
+```{r knitr_init, include=FALSE}
 source("assets/codebook-setup.R")
 ```
 
 # Welcome to EPsy 8251
 
-<img src="img/epsy-8251-logo.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" />
+
+```{r echo=FALSE, fig.align='center', out.width='60%'}
+knitr::include_graphics("img/epsy-8251-logo.png")
+```
 
 
 In this class, we will work together to develop a learning community that is inclusive and respectful, and where every student is supported in the learning process. As a class full of diverse individuals (reflected by differences in race, culture, age, religion, gender identity, sexual orientation, socioeconomic background, abilities, professional goals, and other social identities and life experiences) I expect that different students may need different things to support and promote their learning. The TAs and I will do everything we can to help with this, but as we only know what we know, we need you to communicate with us if things are not working for you or you need something we are not providing. I hope you all feel comfortable in helping to promote an inclusive classroom through respecting one another's individual differences, speaking up, and challenging oppressive/problematic ideas. Finally, I look forward to learning from each of you and the experiences you bring to the class. 
@@ -55,7 +58,10 @@ Kyle Stagnaro ([stagn011@umn.edu](mailto://stagn011@umn.edu))  <br />
 - The course syllabus is available  [here](https://github.com/zief0002/epsy-8251/raw/main/syllabus/f22-8251-syllabus.pdf).
 - [Message from Snoop Dogg](https://t.co/5X88O0DBUZ?amp=1) about the syllabus
 
-<img src="img/units.png" />
+
+```{r echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics("img/units.png")
+```
 
 
 <br />

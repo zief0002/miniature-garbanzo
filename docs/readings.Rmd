@@ -8,7 +8,7 @@ As part of the course, there are several articles, papers and technical reports 
 
 **Required**
 
-- Download and read through the [course syllabus](https://github.com/zief0002/epsy-8251/raw/master/syllabus/f21-8251-syllabus.pdf)
+- Download and read through the [course syllabus](https://github.com/zief0002/epsy-8251/raw/main/syllabus/f22-8251-syllabus.pdf)
 - Read [Preface for Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/preface.html#preface) [*Computational Toolkit*]
 
 
@@ -24,7 +24,7 @@ As part of the course, there are several articles, papers and technical reports 
 Read the following:
 
 - [Getting Started with R](https://zief0002.github.io/toolkit/getting-started-with-r.html#getting-started-with-r) [*Computational Toolkit*]
-- If you will be using your computer for statistical computing (rather than the RStudio server), download and install the most recent versions of [R (version 4.1.1; *Kick Things*)](https://www.r-project.org/) and [RStudio Desktop (version 1.4.1717)](https://www.rstudio.com/) on your computer.
+- If you will be using your computer for statistical computing (rather than the RStudio server), download and install the most recent versions of [R (version 4.2.1; *Funny Looking Kid*)](https://www.r-project.org/) and [RStudio Desktop (version 2022.07.1)](https://www.rstudio.com/) on your computer.
 
 
 R and RStudio onto your personal computer. See [R and RStudio Installation and Setup](https://zief0002.github.io/toolkit/r-and-rstudio-installation-and-setup.html#r-and-rstudio-installation-and-setup) for help.

@@ -42,6 +42,11 @@ a:hover {
   color: #333;
 }
 
+/* Make images show up at regular size */
+.pages .page img.image-thumb {
+  max-width: 100%;
+}
+
 table{
   margin-left: auto; 
   margin-right:auto; 
@@ -59,4 +64,6 @@ table thead tr {
 table tbody tr {
   border-bottom: 1px solid black;
 }
+
+
 

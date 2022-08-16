@@ -42,7 +42,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <!-- <td>Sept. 03</td> -->
-<td>Sept. 08</td>
+<td>Sept. 07</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -65,7 +65,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 05</td> -->
-<td>Sept. 13</td>
+<td>Sept. 12</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -81,7 +81,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 10</td> -->
-<td>Sept. 15</td>
+<td>Sept. 14</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -97,7 +97,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 12</td> -->
-<td>Sept. 20</td>
+<td>Sept. 19</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -120,7 +120,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 17</td> -->
-<td>Sept. 22</td>
+<td>Sept. 21</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -136,14 +136,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 19</td> -->
-<td>Sept. 27</td>
+<td>Sept. 26</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 24</td> -->
-<td>Sept. 29</td>
+<td>Sept. 28</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -160,7 +160,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Sept. 26</td> -->
-<td>Oct. 04</td>
+<td>Oct. 03</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -176,14 +176,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 01</td> -->
-<td>Oct. 06</td>
+<td>Oct. 05</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 03</td> -->
-<td>Oct. 11</td>
+<td>Oct. 10</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -200,14 +200,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 08</td> -->
-<td>Oct. 13</td>
+<td>Oct. 12</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 10</td> -->
-<td>Oct. 18</td>
+<td>Oct. 17</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -224,7 +224,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 15</td> -->
-<td>Oct. 20</td>
+<td>Oct. 19</td>
 </tr>
 
 
@@ -239,7 +239,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 17</td> -->
-<td>Oct. 25</td>
+<td>Oct. 24</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -255,7 +255,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 22</td> -->
-<td>Oct. 27</td>
+<td>Oct. 26</td>
 </tr>
 
 <!-- UNDERSTANDING STATISTICAL CONTROL -->
@@ -263,7 +263,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 24</td> -->
-<td>Nov. 01</td>
+<td>Oct. 31</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -279,14 +279,28 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 29</td> -->
-<td>Nov. 03</td>
+<td>Nov. 02</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 24</td> -->
+<td>Nov. 07</td>
+<td align="center" style="vertical-align:middle;">
+  <!-- <a href="preparation.html#control"> -->
+  <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
+  <!-- </a> -->
+</td>
+<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day --- Andy at a conference*
+<td align="center" style="vertical-align:middle;"></td>
+<td align="center" style="vertical-align:middle;"></td>
+</tr>
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 31</td> -->
-<td>Nov. 08</td>
+<td>Nov. 09</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -302,7 +316,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 05</td> -->
-<td>Nov. 10</td>
+<td>Nov. 14</td>
 </tr>
 
 
@@ -319,7 +333,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 07</td> -->
-<td>Nov. 15</td>
+<td>Nov. 16</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -335,14 +349,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 12</td> -->
-<td>Nov. 17</td>
+<td>Nov. 21</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 19</td> -->
-<td>Nov. 22</td>
+<td>Nov. 23</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -358,22 +372,8 @@ Below is the tentative schedule for the class. The dates are subject to change a
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
-<!-- <td>Sept. 24</td> -->
-<td>Nov. 24</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a href="preparation.html#control"> -->
-  <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
-  <!-- </a> -->
-</td>
-<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day*
-<td align="center" style="vertical-align:middle;"></td>
-<td align="center" style="vertical-align:middle;"></td>
-</tr>
-
-<tr>
-<td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 19</td> -->
-<td>Nov. 29</td>
+<td>Nov. 28</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -390,7 +390,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 26</td> -->
-<td>Dec. 01</td>
+<td>Nov. 30</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -407,13 +407,13 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Dec. 03</td> -->
-<td>Dec. 06</td>
+<td>Dec. 05</td>
 </tr>
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Dec. 09</td> -->
-<td>Dec. 08</td>
+<td>Dec. 07</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -428,13 +428,13 @@ Below is the tentative schedule for the class. The dates are subject to change a
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Dec. 13</td>
+<td>Dec. 12</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Dec. 15</td>
+<td>Dec. 14</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td style="vertical-align:middle;">TBA</td>
 <td align="center" style="vertical-align:middle;"></td>
