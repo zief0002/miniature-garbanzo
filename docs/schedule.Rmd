@@ -87,7 +87,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td>Data Wrangling with dplyr</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/miniature-garbanzo/notes/02-data-wrangling-with-dplyr.html)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/02-data-wrangling-with-dplyr.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/02-data-wrangling-with-dplyr.R)
@@ -103,10 +103,10 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td>Plotting with ggplot2</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](http://zief0002.github.io/epsy-8251/notes/03-plotting-with-ggplot2.html)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/03-plotting-with-ggplot2.html)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/03-plotting-with-ggplot2.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/03-plotting-with-ggplot2.R)
 </td>
 </tr>
 
@@ -129,7 +129,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/slrd.html#slrd)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/04-simple-linear-regression-description.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/04-simple-linear-regression-description.R)
 </td>
 </tr>
 
@@ -152,7 +152,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/ordinary-least-squares-ols-estimation.html#ordinary-least-squares-ols-estimation)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/05-ordinary-least-squares-estimation.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/05-ordinary-least-squares-estimation.R)
 </td>
 </tr>
 
@@ -169,7 +169,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/cor.html#cor)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/06-correlation-and-standardized-regression.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/06-correlation-and-standardized-regression.R)
 </td>
 </tr>
 
@@ -192,7 +192,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/coefinf.html#coefinf)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/07-coefficient-level-inference.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/07-coefficient-level-inference.R)
 </td>
 </tr>
 
@@ -216,7 +216,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/modinf.html#modinf)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/08-model-level-inference.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/08-model-level-inference.R)
 </td>
 </tr>
 
@@ -248,7 +248,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/multreg.html#multreg)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/09-introduction-to-multiple-regression.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/09-introduction-to-multiple-regression.R)
 </td>
 </tr>
 
@@ -272,7 +272,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/statcontrol.html#statcontrol)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/10-understanding-statistical-control.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/10-understanding-statistical-control.R)
 </td>
 </tr>
 
@@ -309,7 +309,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/assumptions.html#assumptions)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/11-distributional-assumptions-underlying-the-regression-model.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/11-distributional-assumptions-underlying-the-regression-model.R)
 </td>
 </tr>
 
@@ -342,7 +342,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/dummy.html#dummy)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/12-dummy-coding-categorical-predictors.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/12-dummy-coding-categorical-predictors.R)
 </td>
 </tr>
 
@@ -365,7 +365,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/14-polychotomous-categorical-predictors.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
 </td>
 </tr>
 
@@ -382,7 +382,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/14-polychotomous-categorical-predictors.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
 </td>
 </tr>
 
@@ -399,7 +399,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-01.html#interaction-01)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/15-introduction-to-interaction-effects.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/15-introduction-to-interaction-effects.R)
 </td>
 </tr>
 
@@ -422,7 +422,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-02.html#interaction-02)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](https://github.com/zief0002/epsy-8251/raw/master/scripts/16-more-interaction-effects.R)
+  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/16-more-interaction-effects.R)
 </td>
 </tr>
 

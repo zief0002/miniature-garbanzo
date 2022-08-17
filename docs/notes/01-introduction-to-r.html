@@ -3,8 +3,8 @@
   <head>
     <title>Introduction to R and RStudio</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Andrew Zieffler&quot;" />
-    <meta name="date" content="2021-07-28" />
+    <meta name="author" content="Andrew Zieffler”" />
+    <meta name="date" content="2022-08-17" />
     <script src="css/header-attrs/header-attrs.js"></script>
     <link href="css/remark-css/default.css" rel="stylesheet" />
     <link href="css/remark-css/metropolis.css" rel="stylesheet" />
@@ -15,10 +15,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Introduction to R and RStudio
+]
+.subtitle[
 ## EPsy 8251
-### Andrew Zieffler"
-### 2021-07-28
+]
+.author[
+### Andrew Zieffler”
+]
+.date[
+### 2022-08-17
+]
 
 ---
 
@@ -695,7 +703,7 @@ Install the following packages:
 - **dplyr**
 - **ggplot2**
 
-Download the *riverview.csv* data set from the course website to your computer. Import the data into RStudio. If all goes well, the data frame should have six columns (variables) and 32 rows (cases).  Open a new script file and record and comment on the syntax for each of the following:
+Import the *riverview.csv* data into RStudio. If all goes well, the data frame should have six columns (variables) and 32 rows (cases).  Open a new script file and record and comment on the syntax for each of the following:
 
 - Compute the mean income for the 32 employees.
 - Compute the standard deviation of incomes for the 32 employees.
@@ -751,6 +759,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
