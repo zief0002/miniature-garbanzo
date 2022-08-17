@@ -17,24 +17,24 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 
 <tbody>
 
-<!-- <tr> -->
-<!-- <td>activity-based-courses.csv</td> -->
-<!-- <td align="center" style="vertical-align:middle;"> -->
-<!--   <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/activity-based-courses.csv"> -->
-<!--     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span> -->
-<!--   </a> -->
-<!-- </td> -->
-<!-- <td align="center" style="vertical-align:middle;"> -->
-<!--   <a href="codebooks/activity-based-courses.html" target="_blank"> -->
-<!--     <span class="fas fa-book-open" style="color: #ff2600; font-size: 20px;"></span> -->
-<!--   </a> -->
-<!-- </td> -->
-<!-- </tr> -->
+<tr>
+<td>broadband.csv</td>
+<td align="center" style="vertical-align:middle;">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/broadband.csv">
+    <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
+  </a>
+</td>
+<td align="center" style="vertical-align:middle;">
+  <a href="codebooks/broadband.html" target="_blank">
+    <span class="fas fa-book-open" style="color: #ff2600; font-size: 20px;"></span>
+  </a>
+</td>
+</tr>
 
 <tr>
 <td>colleges-bordering-mn.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/colleges-bordering-mn.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/colleges-bordering-mn.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -48,7 +48,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>evaluations.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/evaluations.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/evaluations.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -62,7 +62,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>fertility.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/fertility.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/fertility.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -76,7 +76,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>goodreads.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/goodreads.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/goodreads.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -90,7 +90,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>keith-gpa.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/keith-gpa.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/keith-gpa.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -104,7 +104,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>mn-schools.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/mn-schools.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/mn-schools.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -118,7 +118,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>riverview.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/riverview.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -132,7 +132,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>scoobydoo.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/scoobydoo.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/scoobydoo.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -146,7 +146,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>spice-girls.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/spice-girls.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/spice-girls.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -160,7 +160,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>state-education.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/state-education.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/state-education.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -174,7 +174,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>substance-family.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/substance-family.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/substance-family.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>
@@ -189,7 +189,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <!-- <tr> -->
 <!-- <td>waffle-house.csv</td> -->
 <!-- <td align="center" style="vertical-align:middle;"> -->
-<!--   <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/waffle-house.csv"> -->
+<!--   <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/waffle-house.csv"> -->
 <!--     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span> -->
 <!--   </a> -->
 <!-- </td> -->
@@ -204,7 +204,7 @@ Below are the links to the data sets and data codebooks used in the notes, scrip
 <tr>
 <td>work-demands.csv</td>
 <td align="center" style="vertical-align:middle;">
-  <a href="https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/work-demands.csv">
+  <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/work-demands.csv">
     <span class="fas fa-file-csv" style="color: #ff2600; font-size: 20px;"></span>
   </a>
 </td>

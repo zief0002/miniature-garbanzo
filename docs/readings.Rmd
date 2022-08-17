@@ -8,7 +8,7 @@ As part of the course, there are several articles, papers and technical reports 
 
 **Required**
 
-- Download and read through the [course syllabus](https://github.com/zief0002/epsy-8251/raw/main/syllabus/f22-8251-syllabus.pdf)
+- Download and read through the [course syllabus](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/syllabus/f22-8251-syllabus.pdf)
 - Read [Preface for Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/preface.html#preface) [*Computational Toolkit*]
 
 
