@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Plotting with ggplot2</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Andrew Zieffler&quot;" />
-    <meta name="date" content="2019-06-05" />
+    <meta name="author" content="Andrew Zieffler”" />
+    <meta name="date" content="2022-08-17" />
+    <script src="css/header-attrs/header-attrs.js"></script>
     <link href="css/remark-css/default.css" rel="stylesheet" />
     <link href="css/remark-css/metropolis.css" rel="stylesheet" />
     <link href="css/remark-css/metropolis-fonts.css" rel="stylesheet" />
@@ -14,10 +15,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Plotting with ggplot2
+]
+.subtitle[
 ## EPsy 8251
-### Andrew Zieffler"
-### 2019-06-05
+]
+.author[
+### Andrew Zieffler”
+]
+.date[
+### 2022-08-17
+]
 
 ---
 
@@ -35,20 +44,26 @@ library(ggplot2)
 library(readr)
 
 # Import and view the city data 
-city = read_csv("~/Documents/github/epsy-8251/data/riverview.csv")
-head(city)
+city = read_csv("https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv")
+city
 ```
 
 ```
-## # A tibble: 6 x 6
-##   education income seniority gender  male party      
-##       &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;      
-## 1         8   37.4         7 male       1 Democrat   
-## 2         8   26.4         9 female     0 Independent
-## 3        10   47.0        14 male       1 Democrat   
-## 4        10   34.2        16 female     0 Independent
-## 5        10   25.5         1 female     0 Republican 
-## 6        12   46.5        11 female     0 Democrat
+## # A tibble: 32 × 5
+##    education income seniority gender     party      
+##        &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      
+##  1         8   26.4         9 female     Independent
+##  2         8   37.4         7 Not female Democrat   
+##  3        10   34.2        16 female     Independent
+##  4        10   25.5         1 female     Republican 
+##  5        10   47.0        14 Not female Democrat   
+##  6        12   46.5        11 female     Democrat   
+##  7        12   52.5        16 female     Independent
+##  8        12   37.7        14 Not female Democrat   
+##  9        12   50.3        24 Not female Democrat   
+## 10        14   32.6         5 female     Independent
+## # … with 22 more rows
+## # ℹ Use `print(n = ...)` to see more rows
 ```
 
 
@@ -62,7 +77,7 @@ Plots are built by *layering* different components.
 ```r
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point() +
-  theme_bw()
+  theme_minimal()
 ```
 
 In this syntax there are three layers:
@@ -115,7 +130,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Aesthetic Mappings
 
-Aesthetic mappings describe how variables in the data are **mapped to visual properties** (aesthetics) in the plot. They are used to define visual properties such as: position (e.g., `\(x\)`-dimension, `\(y\)`-dimension), size, color, fill, and groupings.
+Aesthetic mappings describe how variables in the data are **mapped to visual properties** (aesthetics) in the plot. They are used to define visual properties such as: position (e.g., *x*-dimension, *y*-dimension), size, color, fill, and groupings.
 
 
 ```r
@@ -125,10 +140,10 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 In this example there are two aesthetic mappings.
 
-1. Education values from the data are mapped to the `\(x\)`-position for each observation.
-2. Income values from the data are mapped to the `\(y\)`-position for each observation.
+1. Education values from the data are mapped to the *x*-position for each observation.
+2. Income values from the data are mapped to the *y*-position for each observation.
 
-All aesthetic mappings (data mapped to visual property) need to be specified in the `aes()` function. Mappings apply different values for the visual property based on the data. The geometric objects (in this example, points) are plotted based on the aesthetic mappings specified in the global layer. For example, the syntax above draws points at the ordered pairs of employees’ education ($x$-position) and incomes ($y$-position) as specified in the `city` data.
+All aesthetic mappings (data mapped to visual property) need to be specified in the `aes()` function. Mappings apply different values for the visual property based on the data. The geometric objects (in this example, points) are plotted based on the aesthetic mappings specified in the global layer. For example, the syntax above draws points at the ordered pairs of employees’ education (*x*-position) and incomes (*y*-position) as specified in the `city` data.
 
 ---
 
@@ -163,7 +178,7 @@ As we add multiple layers to build up our plot, it is a good habit to use multip
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point() + 
   geom_smooth() +
-  theme_bw()
+  theme_minimal()
 ```
 
 The `+` sign needs to be at the end of the line (not at the beginning). If you are using a script file (which you should be), highlight ALL layers in the plot and click `Run` to create the plot.
@@ -203,14 +218,14 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Fixed Aesthetics
 
-Fixed aesthetics assign the exact same value for the visual property for **all** the observations; it is not based on the data. Fixed aesthetics are specified outside the `aes()` function. For example, the following syntax uses the data to assign the `\(x\)`- and `\(y\)`-positions (aesthetic mapping), but then colors *all of the observations* red and makes *all of the observations* size 4 (default is `size=3`).
+Fixed aesthetics assign the exact same value for the visual property for **all** the observations; it is not based on the data. Fixed aesthetics are specified outside the `aes()` function. For example, the following syntax uses the data to assign the *x*- and *y*-positions (aesthetic mapping), but then colors *all of the observations* red and makes *all of the observations* size 4 (default is `size=3`).
 
 .pull-left[.smallish[
 
 ```r
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point(color = "red", size = 4) +
-  theme_bw()
+  theme_minimal()
 ```
 ]]
 
@@ -316,7 +331,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Changing the Axis Label
 
-The layers `xlab()` and `ylab()` can be used to change the label on the `\(x\)`- and `\(y\)`-axes, respectively.
+The layers `xlab()` and `ylab()` can be used to change the label on the *x*- and *y*-axes, respectively.
 
 .pull-left[
 .smallish[
@@ -338,7 +353,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Changing the Axis Limits
 
-The layers `xlim()` and `ylim()` are used to set the limits on the `\(x\)`-axis and `\(y\)`-axis, respectively. The first value provided is the minimum, and the second value given is the maximum.
+The layers `xlim()` and `ylim()` are used to set the limits on the *x*-axis and *y*-axis, respectively. The first value provided is the minimum, and the second value given is the maximum.
 
 .pull-left[
 .smallish[
@@ -362,7 +377,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Fine-Tuning Axis Scales
 
-The `xlab()`, `ylab()`, `xlim()` and `ylim()` functions we used are shortcuts to using scaling layers. The use of scaling layers allows much more fine-tuning and control of the axis scales. There are four different scaling functions you can use depending on which axis ($x$ or `\(y\)`) you want to control and whether the variable plotted along that axis is *continuous* or *discrete*. The four functions are: (1) `scale_x_continuous()`, (2) `scale_x_discrete()`, (2) `scale_y_continuous()`, and (4) `scale_y_discrete()`.
+The `xlab()`, `ylab()`, `xlim()` and `ylim()` functions we used are shortcuts to using scaling layers. The use of scaling layers allows much more fine-tuning and control of the axis scales. There are four different scaling functions you can use depending on which axis (*x* or *y*) you want to control and whether the variable plotted along that axis is *continuous* or *discrete*. The four functions are: (1) `scale_x_continuous()`, (2) `scale_x_discrete()`, (2) `scale_y_continuous()`, and (4) `scale_y_discrete()`.
 
 
 ```r
@@ -462,7 +477,7 @@ colors()
 
 Colors can also be defined using HEX notation. HEX notation is always preceeded by a hashtag (\#).
 
-&lt;img src="images/notes-03-hex-color-palette.png" width="2832" /&gt;
+![](images/notes-03-hex-color-palette.png)&lt;!-- --&gt;
 
 ---
 
@@ -471,10 +486,10 @@ Colors can also be defined using HEX notation. HEX notation is always preceeded 
 .pull-left[
 Choosing a color palette can be challenging. It should be aesthetically pleasing, but needs to convey the differences and nuances in the data that you are using color to display. In addition, roughly 8% of males and 0.5% of females have some form of color vision deficiency which will affect how they see and interpret the plot. Here are a few resources for thinking about color palettes:
 
-- [Finding the Right Color Palettes for Data Visualizations](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283)
 - [Picking a Colour Scale for Scientific Graphics](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/)
 - [Color Universal Design (CUD): How to Make Figures and Presentations that are Friendly to Colorblind People](http://jfly.iam.u-tokyo.ac.jp/color/)
 ]
+- [Color Palettes in R](https://github.com/EmilHvitfeldt/r-color-palettes)
 
 .pull-right[
 Many organizations have official colors associated with their brand. For example, the University of Minnesota's two official primary colors in HEX (for electronic display) are:
@@ -536,7 +551,7 @@ She has palettes for three different types of data
 ]
 
 .pull-right[
-&lt;img src="images/notes-03-color-brewer-palette.png" width="608" /&gt;
+![](images/notes-03-color-brewer-palette.png)&lt;!-- --&gt;
 ]
 
 There is a very readable introduction to color brewer palettes at http://mkweb.bcgsc.ca/brewer/
@@ -569,7 +584,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Themes
 
-There are several "built-in" themes that you can use to change the look of your plot: `theme_grey()`, `theme_bw()`, `theme_linedraw()`, `theme_light()`, `theme_dark()`, `theme_minimal()`, `theme_classic()`, `theme_void()`, and `theme_test()`. The default theme is `theme_grey()`.
+There are several "built-in" themes that you can use to change the look of your plot: `theme_grey()`, `theme_minimal()`, `theme_linedraw()`, `theme_light()`, `theme_dark()`, `theme_minimal()`, `theme_classic()`, `theme_void()`, and `theme_test()`. The default theme is `theme_grey()`.
 
 .pull-left[
 .smallish[
@@ -577,11 +592,11 @@ There are several "built-in" themes that you can use to change the look of your 
 ```r
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point() +
-  theme_bw()
+  theme_minimal()
 ```
 ]
 
-The `theme_bw()` layer is a "built-in" theme that uses a black-and-white background (rather than grey).
+The `theme_minimal()` layer is a "built-in" theme that uses a minimal black-and-white background (rather than grey).
 ]
 
 .pull-right[
@@ -600,7 +615,7 @@ The `theme()` function can be used to change every element in the plot (e.g., gr
 ```r
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point() +
-  theme_bw() +
+  theme_minimal() +
   theme(
     axis.title.x = element_text(face = "bold", color = "blue"),
     axis.title.y = element_text(face = "italic")
@@ -617,7 +632,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # The ggthemes Package
 
-The **ggthemes** package includes 20 additional themes that you can use to style your plot. See https://jrnold.github.io/ggthemes/. Here I use a theme similar to that from plots that appear in the Wall Street Journal.
+The `{ggthemes}` package includes 20 additional themes that you can use to style your plot. See [here](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/). Here I use a theme similar to that from plots that appear in the Wall Street Journal.
 
 .pull-left[
 .smallish[
@@ -659,7 +674,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ```
 ]
 
-The `labels=dollar` option is a built-in formatter from the **scales** package that adds the dollar sign and commas to the labels on a specified axis. Read more at http://www.rdocumentation.org/packages/scales/versions/0.4.0
+The `labels=dollar` option is a built-in formatter from the `{scales}` package that adds the dollar sign and commas to the labels on a specified axis. Read more [here](https://bookdown.org/Maxine/ggplot2-maps/posts/2019-11-27-using-scales-package-to-modify-ggplot2-scale/).
 ]
 
 .pull-right[
@@ -670,9 +685,9 @@ The `labels=dollar` option is a built-in formatter from the **scales** package t
 
 # Other ggplot Extension Packages
 
-Like the **ggthemes** package, there are many other packages that extend ggplot's functionality. Many of them are listed at https://www.ggplot2-exts.org/
+Like the `{ggthemes}` package, there are many other packages that extend ggplot's functionality. Many of them are listed at https://exts.ggplot2.tidyverse.org/
 
-&lt;img src="images/notes-03-ggplot-gallery.png" width="3997" /&gt;
+![](images/notes-03-ggplot-gallery.png)&lt;!-- --&gt;
 
 ---
 
@@ -696,7 +711,7 @@ ggplot(data = city, aes(x = education, y = income)) +
     name = "Annual income (in U.S. dollars)", 
     labels = dollar
     ) +
-  theme_bw() +
+  theme_minimal() +
   facet_wrap(~ gender)
 ```
 
@@ -713,7 +728,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Combining ggplot with dplyr
 
-Since output from **dplyr** piping operator produces a data frame, we can pipe the data into the `ggplot()` global layer rather than using the argument `data=`.
+Since output from `{dplyr}` piping operator produces a data frame, we can pipe the data into the `ggplot()` global layer rather than using the argument `data=`.
 
 .pull-left[
 .smallish[
@@ -738,15 +753,21 @@ city %&gt;%
 
 # ggplot2 Resources
 
-- **ggplot2 Cheatsheet:** A one-page (front and back) cheatsheet of ggplot2 syntax with pictures https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf
+- **Data visualization with ggplot2 cheatsheet :** A one-page (front and back) cheatsheet of ggplot2 syntax with pictures https://www.rstudio.com/resources/cheatsheets/
 
-- **ggplot2 Extensions:** Third-party and user contributed extensions for some pretty cool plots http://www.ggplot2-exts.org/index.html
+- **ggplot2 Extensions:** Third-party and user contributed extensions for some pretty cool plots https://exts.ggplot2.tidyverse.org/
 
 - **Cookbook for R:** Web-based version of Winston Chang's R Graphics Cookbook http://www.cookbook-r.com/Graphs/ (The UMN library has electronic access to the actual book. Just search for "R Graphics Cookbook" and log-in with your x500.)
 
-- **extrafonts package:** Use almost any font on your computer in your plots. http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html
+- **Data Visualization: A Practical Introduction:** Online book about data viz using ggplot2 https://socviz.co/
 
-- **paletteer package:** A comprehensive collection of color palettes in R using a common interface https://github.com/EmilHvitfeldt/paletteer
+- **Color Palettes in R:** A comprehensive collection of color palettes in R using a common interface https://github.com/EmilHvitfeldt/r-color-palettes
+
+
+
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -792,9 +813,38 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -803,7 +853,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

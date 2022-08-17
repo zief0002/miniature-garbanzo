@@ -7,6 +7,7 @@ output:
   xaringan::moon_reader:
     lib_dir: "css"
     css: ["default", "metropolis", "metropolis-fonts", "css/extra.css"]
+    df-print: paged
     nature:
       highlightLines: true
       countIncrementalSlides: false
@@ -26,8 +27,8 @@ library(ggplot2)
 library(readr)
 
 # Import and view the city data 
-city = read_csv("~/Documents/github/epsy-8251/data/riverview.csv")
-head(city)
+city = read_csv("https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv")
+city
 ```
 
 
@@ -40,7 +41,7 @@ Plots are built by *layering* different components.
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point() +
-  theme_bw()
+  theme_minimal()
 ```
 
 In this syntax there are three layers:
@@ -94,7 +95,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Aesthetic Mappings
 
-Aesthetic mappings describe how variables in the data are **mapped to visual properties** (aesthetics) in the plot. They are used to define visual properties such as: position (e.g., $x$-dimension, $y$-dimension), size, color, fill, and groupings.
+Aesthetic mappings describe how variables in the data are **mapped to visual properties** (aesthetics) in the plot. They are used to define visual properties such as: position (e.g., *x*-dimension, *y*-dimension), size, color, fill, and groupings.
 
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
@@ -103,10 +104,10 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 In this example there are two aesthetic mappings.
 
-1. Education values from the data are mapped to the $x$-position for each observation.
-2. Income values from the data are mapped to the $y$-position for each observation.
+1. Education values from the data are mapped to the *x*-position for each observation.
+2. Income values from the data are mapped to the *y*-position for each observation.
 
-All aesthetic mappings (data mapped to visual property) need to be specified in the `aes()` function. Mappings apply different values for the visual property based on the data. The geometric objects (in this example, points) are plotted based on the aesthetic mappings specified in the global layer. For example, the syntax above draws points at the ordered pairs of employees’ education ($x$-position) and incomes ($y$-position) as specified in the `city` data.
+All aesthetic mappings (data mapped to visual property) need to be specified in the `aes()` function. Mappings apply different values for the visual property based on the data. The geometric objects (in this example, points) are plotted based on the aesthetic mappings specified in the global layer. For example, the syntax above draws points at the ordered pairs of employees’ education (*x*-position) and incomes (*y*-position) as specified in the `city` data.
 
 ---
 
@@ -143,7 +144,7 @@ As we add multiple layers to build up our plot, it is a good habit to use multip
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point() + 
   geom_smooth() +
-  theme_bw()
+  theme_minimal()
 ```
 
 The `+` sign needs to be at the end of the line (not at the beginning). If you are using a script file (which you should be), highlight ALL layers in the plot and click `Run` to create the plot.
@@ -189,13 +190,13 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Fixed Aesthetics
 
-Fixed aesthetics assign the exact same value for the visual property for **all** the observations; it is not based on the data. Fixed aesthetics are specified outside the `aes()` function. For example, the following syntax uses the data to assign the $x$- and $y$-positions (aesthetic mapping), but then colors *all of the observations* red and makes *all of the observations* size 4 (default is `size=3`).
+Fixed aesthetics assign the exact same value for the visual property for **all** the observations; it is not based on the data. Fixed aesthetics are specified outside the `aes()` function. For example, the following syntax uses the data to assign the *x*- and *y*-positions (aesthetic mapping), but then colors *all of the observations* red and makes *all of the observations* size 4 (default is `size=3`).
 
 .pull-left[.smallish[
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point(color = "red", size = 4) +
-  theme_bw()
+  theme_minimal()
 ```
 ]]
 
@@ -203,7 +204,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ```{r echo=FALSE, out.width='90%'}
 ggplot(data = city, aes(x = education, y = income)) + 
   geom_point(color = "red", size = 4) +
-  theme_bw()
+  theme_minimal()
 ```
 ]
 ---
@@ -319,7 +320,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Changing the Axis Label
 
-The layers `xlab()` and `ylab()` can be used to change the label on the $x$- and $y$-axes, respectively.
+The layers `xlab()` and `ylab()` can be used to change the label on the *x*- and *y*-axes, respectively.
 
 .pull-left[
 .smallish[
@@ -345,7 +346,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Changing the Axis Limits
 
-The layers `xlim()` and `ylim()` are used to set the limits on the $x$-axis and $y$-axis, respectively. The first value provided is the minimum, and the second value given is the maximum.
+The layers `xlim()` and `ylim()` are used to set the limits on the *x*-axis and *y*-axis, respectively. The first value provided is the minimum, and the second value given is the maximum.
 
 .pull-left[
 .smallish[
@@ -375,7 +376,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Fine-Tuning Axis Scales
 
-The `xlab()`, `ylab()`, `xlim()` and `ylim()` functions we used are shortcuts to using scaling layers. The use of scaling layers allows much more fine-tuning and control of the axis scales. There are four different scaling functions you can use depending on which axis ($x$ or $y$) you want to control and whether the variable plotted along that axis is *continuous* or *discrete*. The four functions are: (1) `scale_x_continuous()`, (2) `scale_x_discrete()`, (2) `scale_y_continuous()`, and (4) `scale_y_discrete()`.
+The `xlab()`, `ylab()`, `xlim()` and `ylim()` functions we used are shortcuts to using scaling layers. The use of scaling layers allows much more fine-tuning and control of the axis scales. There are four different scaling functions you can use depending on which axis (*x* or *y*) you want to control and whether the variable plotted along that axis is *continuous* or *discrete*. The four functions are: (1) `scale_x_continuous()`, (2) `scale_x_discrete()`, (2) `scale_y_continuous()`, and (4) `scale_y_discrete()`.
 
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
@@ -484,10 +485,10 @@ knitr::include_graphics("images/notes-03-hex-color-palette.png")
 .pull-left[
 Choosing a color palette can be challenging. It should be aesthetically pleasing, but needs to convey the differences and nuances in the data that you are using color to display. In addition, roughly 8% of males and 0.5% of females have some form of color vision deficiency which will affect how they see and interpret the plot. Here are a few resources for thinking about color palettes:
 
-- [Finding the Right Color Palettes for Data Visualizations](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283)
 - [Picking a Colour Scale for Scientific Graphics](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/)
 - [Color Universal Design (CUD): How to Make Figures and Presentations that are Friendly to Colorblind People](http://jfly.iam.u-tokyo.ac.jp/color/)
 ]
+- [Color Palettes in R](https://github.com/EmilHvitfeldt/r-color-palettes)
 
 .pull-right[
 Many organizations have official colors associated with their brand. For example, the University of Minnesota's two official primary colors in HEX (for electronic display) are:
@@ -595,25 +596,25 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Themes
 
-There are several "built-in" themes that you can use to change the look of your plot: `theme_grey()`, `theme_bw()`, `theme_linedraw()`, `theme_light()`, `theme_dark()`, `theme_minimal()`, `theme_classic()`, `theme_void()`, and `theme_test()`. The default theme is `theme_grey()`.
+There are several "built-in" themes that you can use to change the look of your plot: `theme_grey()`, `theme_minimal()`, `theme_linedraw()`, `theme_light()`, `theme_dark()`, `theme_minimal()`, `theme_classic()`, `theme_void()`, and `theme_test()`. The default theme is `theme_grey()`.
 
 .pull-left[
 .smallish[
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point() +
-  theme_bw()
+  theme_minimal()
 ```
 ]
 
-The `theme_bw()` layer is a "built-in" theme that uses a black-and-white background (rather than grey).
+The `theme_minimal()` layer is a "built-in" theme that uses a minimal black-and-white background (rather than grey).
 ]
 
 .pull-right[
 ```{r echo=FALSE, message=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point(size = 4) +
-  theme_bw()
+  theme_minimal()
 ```
 ]
 
@@ -628,7 +629,7 @@ The `theme()` function can be used to change every element in the plot (e.g., gr
 ```{r eval=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point() +
-  theme_bw() +
+  theme_minimal() +
   theme(
     axis.title.x = element_text(face = "bold", color = "blue"),
     axis.title.y = element_text(face = "italic")
@@ -642,7 +643,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ```{r echo=FALSE, message=FALSE}
 ggplot(data = city, aes(x = education, y = income)) +
   geom_point(size = 4) +
-  theme_bw() +
+  theme_minimal() +
   theme(
     axis.title.x = element_text(face = "bold", color = "blue"),
     axis.title.y = element_text(face = "italic")
@@ -654,7 +655,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # The ggthemes Package
 
-The **ggthemes** package includes 20 additional themes that you can use to style your plot. See https://jrnold.github.io/ggthemes/. Here I use a theme similar to that from plots that appear in the Wall Street Journal.
+The `{ggthemes}` package includes 20 additional themes that you can use to style your plot. See [here](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/). Here I use a theme similar to that from plots that appear in the Wall Street Journal.
 
 .pull-left[
 .smallish[
@@ -699,7 +700,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ```
 ]
 
-The `labels=dollar` option is a built-in formatter from the **scales** package that adds the dollar sign and commas to the labels on a specified axis. Read more at http://www.rdocumentation.org/packages/scales/versions/0.4.0
+The `labels=dollar` option is a built-in formatter from the `{scales}` package that adds the dollar sign and commas to the labels on a specified axis. Read more [here](https://bookdown.org/Maxine/ggplot2-maps/posts/2019-11-27-using-scales-package-to-modify-ggplot2-scale/).
 ]
 
 .pull-right[
@@ -719,7 +720,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Other ggplot Extension Packages
 
-Like the **ggthemes** package, there are many other packages that extend ggplot's functionality. Many of them are listed at https://www.ggplot2-exts.org/
+Like the `{ggthemes}` package, there are many other packages that extend ggplot's functionality. Many of them are listed at https://exts.ggplot2.tidyverse.org/
 
 ```{r echo=FALSE}
 knitr::include_graphics("images/notes-03-ggplot-gallery.png")
@@ -746,7 +747,7 @@ ggplot(data = city, aes(x = education, y = income)) +
     name = "Annual income (in U.S. dollars)", 
     labels = dollar
     ) +
-  theme_bw() +
+  theme_minimal() +
   facet_wrap(~ gender)
 ```
 
@@ -769,7 +770,7 @@ ggplot(data = city, aes(x = education, y = income)) +
     name = "Annual income (in U.S. dollars)", 
     labels = dollar
     ) +
-  theme_bw() +
+  theme_minimal() +
   facet_wrap(~ gender)
 ```
 
@@ -780,7 +781,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 # Combining ggplot with dplyr
 
-Since output from **dplyr** piping operator produces a data frame, we can pipe the data into the `ggplot()` global layer rather than using the argument `data=`.
+Since output from `{dplyr}` piping operator produces a data frame, we can pipe the data into the `ggplot()` global layer rather than using the argument `data=`.
 
 .pull-left[
 .smallish[
@@ -809,15 +810,15 @@ city %>%
 
 # ggplot2 Resources
 
-- **ggplot2 Cheatsheet:** A one-page (front and back) cheatsheet of ggplot2 syntax with pictures https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf
+- **Data visualization with ggplot2 cheatsheet :** A one-page (front and back) cheatsheet of ggplot2 syntax with pictures https://www.rstudio.com/resources/cheatsheets/
 
-- **ggplot2 Extensions:** Third-party and user contributed extensions for some pretty cool plots http://www.ggplot2-exts.org/index.html
+- **ggplot2 Extensions:** Third-party and user contributed extensions for some pretty cool plots https://exts.ggplot2.tidyverse.org/
 
 - **Cookbook for R:** Web-based version of Winston Chang's R Graphics Cookbook http://www.cookbook-r.com/Graphs/ (The UMN library has electronic access to the actual book. Just search for "R Graphics Cookbook" and log-in with your x500.)
 
-- **extrafonts package:** Use almost any font on your computer in your plots. http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html
+- **Data Visualization: A Practical Introduction:** Online book about data viz using ggplot2 https://socviz.co/
 
-- **paletteer package:** A comprehensive collection of color palettes in R using a common interface https://github.com/EmilHvitfeldt/paletteer
+- **Color Palettes in R:** A comprehensive collection of color palettes in R using a common interface https://github.com/EmilHvitfeldt/r-color-palettes
 
 
 
