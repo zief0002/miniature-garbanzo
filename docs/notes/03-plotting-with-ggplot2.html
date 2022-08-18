@@ -734,8 +734,8 @@ Since output from `{dplyr}` piping operator produces a data frame, we can pipe t
 .smallish[
 
 ```r
-city %&gt;%
-  filter(gender == "female") %&gt;%
+city |&gt;
+  filter(gender == "female") |&gt;
   ggplot(aes(x = education, y = income)) +
     geom_point()
 ```

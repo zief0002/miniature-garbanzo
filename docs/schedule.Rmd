@@ -90,7 +90,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/02-data-wrangling-with-dplyr.html)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/02-data-wrangling-with-dplyr.R)
+  <!-- [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/02-data-wrangling-with-dplyr.R) -->
 </td>
 </tr>
 

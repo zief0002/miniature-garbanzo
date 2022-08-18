@@ -786,8 +786,8 @@ Since output from `{dplyr}` piping operator produces a data frame, we can pipe t
 .pull-left[
 .smallish[
 ```{r message=FALSE, eval=FALSE}
-city %>%
-  filter(gender == "female") %>%
+city |>
+  filter(gender == "female") |>
   ggplot(aes(x = education, y = income)) +
     geom_point()
 ```
@@ -799,8 +799,8 @@ city %>%
 *Figure 2.* Relationship between annual income (in U.S. dollars) and years of education for n=18 female employees of the City of Riverview.
 
 ```{r message=FALSE, echo=FALSE, out.width='70%'}
-city %>%
-  filter(gender == "female") %>%
+city |>
+  filter(gender == "female") |>
   ggplot(aes(x = education, y = income)) +
     geom_point(size = 4)
 ```
