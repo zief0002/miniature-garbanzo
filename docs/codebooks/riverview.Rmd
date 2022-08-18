@@ -15,7 +15,7 @@ source("../assets/codebook-setup.R")
 ```
 
 
-The data in [riverview.csv](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/riverview.csv) come from @Lewis-Beck:2016 and contain five attributes collected from a random sample of $n=32$ employees working for the city of Riverview, a hypothetical midwestern city. The attributes include:
+The data in [riverview.csv](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv) come from @Lewis-Beck:2016 and contain five attributes collected from a random sample of $n=32$ employees working for the city of Riverview, a hypothetical midwestern city. The attributes include:
 
 - `education`: Years of formal education
 - `income`: Annual income (in thousands of U.S. dollars)
@@ -31,7 +31,7 @@ The data in [riverview.csv](https://raw.githubusercontent.com/zief0002/epsy-8251
 
 ```{r echo=TRUE, class.source = "fold-hide"}
 # Import Data
-city = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/riverview.csv")
+city = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv")
 
 # View data
 city

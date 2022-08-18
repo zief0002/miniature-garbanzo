@@ -20,7 +20,7 @@ Russell Brandom and William Joel in an article for [The Verge](https://www.theve
 
 But, who in America has access to broadband internet? As part of their ongoing work to improve software and service performance and security, Microsoft collected router speed data from individuals who accessed their cloud services. After aggregating and anonomyzing these data, they made these data available publicly to help researchers and policymakers understand and improve problems related to broadband access. 
 
-The data in [broadband.csv](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/broadband.csv), collected by Microsoft (2021), give us much better insight as to the true broadband access (defined as internet download speeds of at least 25 Mbps) of Americans as, to date, most studies of broadband access have use data collated by the FCC that is based on individual Internet Service Providers' descriptions of the areas they serve. To better contextualize this, the data have also been augmented with several county-level poverty and education indicators. The variables are:
+The data in [broadband.csv](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/broadband.csv), collected by Microsoft (2021), give us much better insight as to the true broadband access (defined as internet download speeds of at least 25 Mbps) of Americans as, to date, most studies of broadband access have use data collated by the FCC that is based on individual Internet Service Providers' descriptions of the areas they serve. To better contextualize this, the data have also been augmented with several county-level poverty and education indicators. The variables are:
 
 - `state`: State postal code
 - `county`: County name
@@ -52,7 +52,7 @@ The data in [broadband.csv](https://raw.githubusercontent.com/zief0002/epsy-8251
 
 ```{r echo=TRUE, class.source = "fold-hide"}
 # Import data
-broadband = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/broadband.csv")
+broadband = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/broadband.csv")
 
 # View data
 broadband

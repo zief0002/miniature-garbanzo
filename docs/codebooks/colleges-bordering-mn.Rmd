@@ -15,7 +15,7 @@ source("../assets/codebook-setup.R")
 ```
 
 
-The data in [colleges-bordering-mn.csv](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/colleges-bordering-mn.csv) contains institutional data for 104 colleges and universities in the five state area (MN, IA, WI, ND, and SD). These data were collected by the Department of Education for the [2013 College Score Card](https://collegescorecard.ed.gov/). The variables are:
+The data in [colleges-bordering-mn.csv](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/colleges-bordering-mn.csv) contains institutional data for 104 colleges and universities in the five state area (MN, IA, WI, ND, and SD). These data were collected by the Department of Education for the [2013 College Score Card](https://collegescorecard.ed.gov/). The variables are:
 
 - `name`: Name of college/university
 - `tuition_in_state`: In-state tuition and fees
@@ -36,7 +36,7 @@ The data in [colleges-bordering-mn.csv](https://raw.githubusercontent.com/zief00
 
 ```{r echo=TRUE, class.source = "fold-hide"}
 # Import Data
-colleges = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/colleges-bordering-mn.csv")
+colleges = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/colleges-bordering-mn.csv")
 
 # View data
 colleges

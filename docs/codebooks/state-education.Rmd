@@ -15,7 +15,7 @@ source("../assets/codebook-setup.R")
 ```
 
 
-This data, stored in [state-education.csv](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/state-education.csv) includes state-level aggregate data on six attributes. The attributes, collected for all 50 states and the District of Columbia, are:
+This data, stored in [state-education.csv](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/state-education.csv) includes state-level aggregate data on six attributes. The attributes, collected for all 50 states and the District of Columbia, are:
 
 - `state`: State name
 - `postal`: State postal code
@@ -38,7 +38,7 @@ Note: All of the SAT data is based on students in the class of 2020 who took the
 
 ```{r echo=TRUE, class.source = "fold-hide"}
 # Import Data
-state_educ = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/state-education.csv")
+state_educ = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/state-education.csv")
 
 # View data
 state_educ

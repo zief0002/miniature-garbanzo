@@ -16,7 +16,7 @@ source("../assets/codebook-setup.R")
 
 
 
-The data in [mnSchools.csv](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/mn-schools.csv) were collected from [http://www.collegeresults.org](http://www.collegeresults.org) and contain 2011 institutional data for $n=33$ Minnesota colleges and universities. The attributes include:
+The data in [mnSchools.csv](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/mn-schools.csv) were collected from [http://www.collegeresults.org](http://www.collegeresults.org) and contain 2011 institutional data for $n=33$ Minnesota colleges and universities. The attributes include:
 
 - `name`: College/university name
 - `grad`: Six-year graduation rate (as a percentage)
@@ -32,7 +32,7 @@ The data in [mnSchools.csv](https://raw.githubusercontent.com/zief0002/epsy-8251
 
 ```{r echo=TRUE, class.source = "fold-hide"}
 # Import Data
-mn = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/mn-schools.csv")
+mn = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/mn-schools.csv")
 
 # View data
 mn
