@@ -21,14 +21,13 @@ As part of the course, there are several articles, papers and technical reports 
 
 **Required**
 
+
+- Download and install the most recent versions of [R (version 4.2.1; *Funny Looking Kid*)](https://www.r-project.org/) and [RStudio Desktop (version 2022.07.1)](https://www.rstudio.com/) on your computer. See [R and RStudio Installation and Setup](https://zief0002.github.io/toolkit-quarto/02-r-and-rstudio-installation.html) for help.
+
 Read the following:
 
-- [Getting Started with R](https://zief0002.github.io/toolkit/getting-started-with-r.html#getting-started-with-r) [*Computational Toolkit*]
-- If you will be using your computer for statistical computing (rather than the RStudio server), download and install the most recent versions of [R (version 4.2.1; *Funny Looking Kid*)](https://www.r-project.org/) and [RStudio Desktop (version 2022.07.1)](https://www.rstudio.com/) on your computer.
-
-
-R and RStudio onto your personal computer. See [R and RStudio Installation and Setup](https://zief0002.github.io/toolkit/r-and-rstudio-installation-and-setup.html#r-and-rstudio-installation-and-setup) for help.
-- [Data Structures in R](https://zief0002.github.io/toolkit/data-structures-in-r.html#data-structures-in-r) [*Computational Toolkit*]
+- [Getting Started with R](https://zief0002.github.io/toolkit-quarto/03-getting-started-with-r.html) [*Computational Toolkit*]
+- [Data Structures in R](https://zief0002.github.io/toolkit-quarto/04-data-structures-in-r.html) [*Computational Toolkit*]
 
 
 **Additional Resources**
@@ -46,11 +45,11 @@ R and RStudio onto your personal computer. See [R and RStudio Installation and S
 
 **Required**
 
-- [Data Wrangling with dplyr](https://zief0002.github.io/toolkit/dplyr.html#dplyr) [*Computational Toolkit*]
+- [Data Wrangling with dplyr](https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html) [*Computational Toolkit*]
 
 **Additional Resources**
 
-- [dplyr Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [Data Transformation with dplyr Cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
 - [Data Wrangling Part 1: Basic to Advanced Ways to Select Columns](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
 - [Data Wrangling Part 2: Transforming your columns into the right shape](https://suzan.rbind.io/2018/02/dplyr-tutorial-2/)
 - [Data Wrangling Part 3: Basic and more advanced ways to filter rows](https://suzan.rbind.io/2018/02/dplyr-tutorial-3/)
