@@ -71,7 +71,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td>Introduction to R and RStudio</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/01-introduction-to-r.html)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](worksheets/worksheet-01-using-R.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   <span class="fa fa-code" style="color: #f1f1f1; font-size: 20px;"></span>
@@ -87,7 +87,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td>Data Wrangling with dplyr</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](notes/02-data-wrangling-with-dplyr.html)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](worksheets/worksheet-02-learning-dplyr.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/02-data-wrangling-with-dplyr.R) -->

@@ -14,7 +14,7 @@
 
 <meta name="date" content="2022-08-19" />
 
-<title>Using RStudio Worksheet</title>
+<title>Learning dplyr Worksheet</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -57,7 +57,7 @@ code span.ot { color: #007020; }
 
 
 <section class="page-header">
-<h1 class="title toc-ignore project-name">Using RStudio Worksheet</h1>
+<h1 class="title toc-ignore project-name">Learning dplyr Worksheet</h1>
 <h4 class="author project-author">Breakout Group</h4>
 <h4 class="date project-date">2022-08-19</h4>
 </section>
@@ -67,96 +67,88 @@ code span.ot { color: #007020; }
 <section class="main-content">
 <div id="directions" class="section level2">
 <h2>Directions</h2>
-<p>Complete the problems on this worksheet with 2–3 other students. You
-may want to refer to the <em>Getting Started with R</em> and <em>Data
-Structures in R</em> chapters in the <a href="https://zief0002.github.io/toolkit-quarto">Computational Toolkit
-for Educational Scientists</a>.</p>
+<p>Work with one or more other students to complete each of the tasks in
+this document. As you work through these tasks, you may want to refer to
+the following:</p>
+<ul>
+<li><a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html">Data
+Wrangling with dplyr</a></li>
+</ul>
+<p>As part of this, include the syntax you use to complete each tasks in
+a script file. As you write your script file, adhere to good coding
+practices:</p>
+<ul>
+<li>Include comments</li>
+<li>Include spaces</li>
+<li>Include a line break after every pipe operator you use.</li>
+</ul>
+<p>You can check in with Andy or the TA at the completion of each task
+to check your work.</p>
+<p><br /></p>
 </div>
-<div id="problem-set-i" class="section level2">
-<h2>Problem Set I</h2>
-<p>Use R to compute the answer to the following problems. You can (for
-now) work in the console or use a script file. This problem set will
-focus on skills and ideas you learn in the section <a href="https://zief0002.github.io/toolkit-quarto/03-getting-started-with-r.html">Getting
-Started with R</a>.</p>
-<ol style="list-style-type: decimal">
-<li><p>Compute: <span class="math inline">\(2 + 3 \times 5\)</span>.
-Does R follow order of operations or not?</p></li>
-<li><p>Compute: <span class="math inline">\((3 \times5^2 \div
-15)-(5-2^2)\)</span></p></li>
-<li><p>Compute: <span class="math inline">\(\sqrt{~\left\vert3-4\right\vert~}\)</span></p></li>
-<li><p>Create a sequence of the numbers 1 and 5. Store this in an object
-called <code>one_five</code>.</p></li>
-<li><p>Create a sequence of all integers between 10 and 1. This sequence
-should begin at 10 and end at 1. (e.g., <span class="math inline">\(10,9,8,7,\ldots,1\)</span>). Store this in an
-object called <code>my_num</code>.</p></li>
-<li><p>Use the <code>length()</code> function to count the number of
-elements in the <code>one_five</code> object. Also use it to count the
-number of elements in <code>my_num</code>.</p></li>
-<li><p>Compute <span class="math inline">\(\mathtt{one\_five}+\mathtt{my\_num}\)</span>.
-Explain how R is using the two objects to obtain the result it
-did.</p></li>
-<li><p>Install the following three packages from CRAN:
-<strong>dplyr</strong>, <strong>ggplot2</strong> and
-<strong>remotes</strong>.</p></li>
-<li><p>Load the <strong>remotes</strong> package.</p></li>
-<li><p>Install the <strong>educate</strong> package from
-GitHub.</p></li>
-</ol>
+<div id="task-1-import-data" class="section level2">
+<h2>Task 1: Import Data</h2>
+<p>Import the <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/comic-characters.csv">comic-characters.csv</a>
+data into an object named <code>comics</code>. Also, examine the <a href="https://zief0002.github.io/miniature-garbanzo/codebooks/comic-characters.html">data
+codebook</a> so you are familiar with the different variables.</p>
+<p><br /></p>
 </div>
-<div id="problem-set-ii" class="section level1">
-<h1>Problem Set II</h1>
-<p>Use R to compute the answer to the following problems. For these
-problems, please work in a script file. This problem set will focus on
-skills and ideas you learn in <a href="https://zief0002.github.io/toolkit-quarto/04-data-structures-in-r.html">Data
-Structures in R</a>.</p>
-<ol start="10" style="list-style-type: decimal">
-<li><p>Create a new script file. Save it on your computer. When you do
-this give it a name other than <em>Untitled</em>.</p></li>
-<li><p>Use the <code>c()</code> function to create a vector that
-includes the number of pets each person in your group has. Name this
-vector <code>pets</code>. (If you have 2 or fewer people in your group,
-combine your results with another group so that you have at least 3
-values.)</p></li>
-<li><p>Create a data frame that includes two columns. The first column
-will be the first names of everyone in your group (or combined groups).
-Call this column <code>first_name</code>. The second column will be the
-number of credits each person in your breakout room is taking this
-semester. Call this column <code>credits</code>. Assign this data frame
-a name so that you can compute on it later. (Feel free to make it a
-three column data frame by adding the <code>pets</code>
-column.)</p></li>
-</ol>
+<div id="task-2-arranging" class="section level2">
+<h2>Task 2: Arranging</h2>
+<p>Use the <code>arrange()</code> function to determine whether Marvel
+and DC introduced LGBTQ characters around the same time, or whether one
+company was more progressive?</p>
+<p><br /></p>
 </div>
-<div id="problem-set-iii" class="section level1">
-<h1>Problem Set III</h1>
-<p>Use R to compute the answer to the following problems. For these
-problems, please continue to work in the script file. This problem set
-will focus on skills and ideas you learn in <a href="https://zief0002.github.io/toolkit-quarto/04-data-structures-in-r.html">Data
-Structures in R</a>.</p>
-<ol start="14" style="list-style-type: decimal">
-<li><p>Import the <a href="https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/comic-characters.csv">comic-characters.csv</a>
-data into R. Assign this to an object called <code>comics</code>. If you
-use the <code>Import</code> button to do this, make sure you copy the
-syntax into your script file.</p></li>
-<li><p>Examine the <a href="https://zief0002.github.io/miniature-garbanzo/codebooks/comic-characters.html">codebook
-for the comic-characters.csv data</a>.</p></li>
-<li><p>Run the syntax <code>View(comics)</code>. This should display the
-imported data in a tab in RStudio. Use the search bar in the tab to
-search for “Hobgoblin”. How many Hobgoblin characters are
-there?</p></li>
-<li><p>Use the search bar in the tab to search for “Skrull”. How many
-Skrull characters are female? (Hint: Click the arrows in the
-<code>sex</code> heading to sort by sex.) How many Skrull characters
-have brown eyes? What years were Skrull characters part of the Marvel
-storyline?</p></li>
-<li><p>Run the syntax <code>mean(appearances)</code>. You should get an
-error. Try to figure out why you are getting this error. (Hint: Look at
-the objects in your environment.) Can you figure out the syntax to find
-the average number of appearances for a comic character? (Hint: Because
-there are missing values in this column, you will need to add the
-argument <code>na.rm=TRUE</code> in the <code>mean()</code>
-function.)</p></li>
-</ol>
+<div id="task-3-more-arranging" class="section level2">
+<h2>Task 3: More Arranging</h2>
+<p>Use the <code>arrange()</code> function to determine the first
+appearance of an LGBTQ female character in DC comics.</p>
+<p><br /></p>
+</div>
+<div id="task-4-filtering-rows" class="section level2">
+<h2>Task 4: Filtering Rows</h2>
+<p>Use the <code>filter()</code> function and <code>nrow()</code> to
+determine the percentage of female comic characters.</p>
+<p><br /></p>
+</div>
+<div id="task-5-more-filtering" class="section level2">
+<h2>Task 5: More Filtering</h2>
+<p>Use the <code>filter()</code> function and <code>nrow()</code> to
+determine the percentage of LGBTQ comic characters introduced in 1970 or
+later. Based on the result is there evidence that the Pride Movement may
+have had an impact on LGBTQ representation?</p>
+<p><br /></p>
+</div>
+<div id="task-6-selecting-columns" class="section level2">
+<h2>Task 6: Selecting Columns</h2>
+<p>The <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#selecting-a-subset-of-columns">Selecting
+a Subset of Columns</a> section of <em>Data Wrangling with dplyr</em>
+included syntax for selecting a subset of data and exporting it to a
+directory on your computer. Modify the syntax to export a CSV of the
+LGBTQ character data to the desktop on your computer.</p>
+<p>Also try modifying the syntax to export the CSV file to another
+folder/directory on your computer.</p>
+<p><br /></p>
+</div>
+<div id="task-7-mutating-columns" class="section level2">
+<h2>Task 7: Mutating Columns</h2>
+<p>Create a new column called <code>first_appearance_pride</code> that
+indicates how many years before or after the Pride Movement (1970) the
+character’s first appearance happened. For example a character that
+first appeared in 1980 would have a value of 10, and a character that
+first appeared in 1968 would have a value of -2. Assign the data that
+includes this column into an object called <code>comics2</code>.</p>
+<p><br /></p>
+</div>
+<div id="task-8-grouping-and-summarizing" class="section level2">
+<h2>Task 8: Grouping and Summarizing</h2>
+<p>Modify the syntax in the <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#computations-on-groups">Computations
+on Groups</a> section of <em>Data Wrangling with dplyr</em> to determine
+the average number of appearances for both DC and Marvel LGBTQ and
+non-LGBTQ characters (as well as the standard deviation and sample size)
+before and after the Pride Movement.</p>
+<p><br /></p>
 </div>
 </section>
 
