@@ -3,8 +3,9 @@
 .RData
 .Ruserdata
 .pages
+.httr-oauth
 
 # Ignore the following folders
 /answer-keys
 /administrative
-.httr-oauth
+
