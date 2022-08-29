@@ -20,6 +20,7 @@ The data in [gapminder.csv](https://raw.githubusercontent.com/zief0002/miniature
 - `country`: The name of the country
 - `region`: The world region (Africa, Americas, Asia, or Europe)
 - `income`: Income per person based on the gross domestic product per person, adjusted for differences in purchasing power (in international dollars, fixed for 2017 prices)
+- `income_level`: Gapminder income levels. Level 1 is made up of people who earn less than \$2 a day and live in extreme poverty. At Level 2, people earn between \$2 and \$8 a day. Almost half the world's population lives at this income level. Level 3 is made up of people who live on between \$8--\$32 per day. The richest billion people on earth live at Level 4, where their income is more than \$32 a day
 - `life_exp`: Average number of years a newborn child would live if current mortality patterns were to stay the same
 - `co2`: Carbon dioxide emissions per person from the burning of fossil fuels (metric tonnes of CO2 per person)
 - `population`: Population of the country, in millions
