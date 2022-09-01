@@ -75,7 +75,7 @@ The course textbook is available via the University of Minnesota library.
 
 There are two other free, online books that the lectures for the class are drawn from:
 
-- [Computational Toolkit for Educational Scientists](https://zief0002.github.io/toolkit/)
+- [Computational Toolkit for Educational Scientists](https://zief0002.github.io/toolkit-quarto/)
 - [Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/)
 
 <br />
