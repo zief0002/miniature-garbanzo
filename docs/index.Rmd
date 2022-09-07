@@ -55,7 +55,7 @@ Kyle Stagnaro ([stagn011@umn.edu](mailto://stagn011@umn.edu))  <br />
 
 ### Course Content and Syllabus {-}
 
-- The course syllabus is available  [here](https://github.com/zief0002/epsy-8251/raw/main/syllabus/f22-8251-syllabus.pdf).
+- The course syllabus is available  [here](https://github.com/zief0002/miniature-garbanzo/raw/main/docs/syllabus/f22-8251-syllabus.pdf).
 - [Message from Snoop Dogg](https://t.co/5X88O0DBUZ?amp=1) about the syllabus
 
 
