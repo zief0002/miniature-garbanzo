@@ -103,7 +103,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td>Plotting with ggplot2</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](worksheets/03-ggplot2.html)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](worksheets/worksheet-03-ggplot2.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/03-plotting-with-ggplot2.R) -->
