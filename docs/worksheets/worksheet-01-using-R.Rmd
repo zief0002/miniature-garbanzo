@@ -37,7 +37,7 @@ Use R to compute the answer to the following problems. You can (for now) work in
 
 9. Load the **remotes** package.
 
-9. Install the **educate** package from GitHub. 
+10. Install the **educate** package from GitHub. 
 
 
 
@@ -46,9 +46,9 @@ Use R to compute the answer to the following problems. You can (for now) work in
 Use R to compute the answer to the following problems. For these problems, please work in a script file. This problem set will focus on skills and ideas you learn in [Data Structures in R](https://zief0002.github.io/toolkit-quarto/04-data-structures-in-r.html).
 
 
-10. Create a new script file. Save it on your computer. When you do this give it a name other than *Untitled*.
+11. Create a new script file. Save it on your computer. When you do this give it a name other than *Untitled*.
 
-11. Use the `c()` function to create a vector that includes the number of pets each person in your group has. Name this vector `pets`. (If you have 2 or fewer people in your group, combine your results with another group so that you have at least 3 values.)
+12. Use the `c()` function to create a vector that includes the number of pets each person in your group has. Name this vector `pets`. (If you have 2 or fewer people in your group, combine your results with another group so that you have at least 3 values.)
 
 13. Create a data frame that includes two columns. The first column will be the first names of everyone in your group (or combined groups). Call this column `first_name`. The second column will be the number of credits each person in your breakout room is taking this semester. Call this column `credits`. Assign this data frame a name so that you can compute on it later. (Feel free to make it a three column data frame by adding the `pets` column.)
 
@@ -65,5 +65,5 @@ Use R to compute the answer to the following problems. For these problems, pleas
 
 17. Use the search bar in the tab to search for "Skrull". How many Skrull characters are female? (Hint: Click the arrows in the `sex` heading to sort by sex.) How many Skrull characters have brown eyes? What years were Skrull characters part of the Marvel storyline?
 
-17. Run the syntax `mean(appearances)`. You should get an error. Try to figure out why you are getting this error. (Hint: Look at the objects in your environment.) Can you figure out the syntax to find the average number of appearances for a comic character? (Hint: Because there are missing values in this column, you will need to add the argument `na.rm=TRUE` in the `mean()` function.)
+18. Run the syntax `mean(appearances)`. You should get an error. Try to figure out why you are getting this error. (Hint: Look at the objects in your environment.) Can you figure out the syntax to find the average number of appearances for a comic character? (Hint: Because there are missing values in this column, you will need to add the argument `na.rm=TRUE` in the `mean()` function.)
 
