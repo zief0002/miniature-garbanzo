@@ -12,8 +12,8 @@ output:
 The goal of this assignment is to give you experience fitting and interpreting regression models with interaction effects. For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file *scoobydoo.csv*.
 
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/scoobydoo.csv)
-- [[Data Codebook]](http://zief0002.github.io/epsy-8251/codebooks/scoobydoo.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/scoobydoo.csv)
+- [[Data Codebook]](https://zief0002.github.io/miniature-garbanzo/codebooks/scoobydoo.html)
 
 
 ```{r echo=FALSE, out.width="60%", fig.align='center'}

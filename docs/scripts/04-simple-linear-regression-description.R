@@ -66,7 +66,7 @@ city %>%
 
 
 ##################################################
-### Relationship between vartiable
+### Relationship between variable
 ##################################################
 
 ggplot(data = city, aes(x = education, y = income)) + 

@@ -14,8 +14,8 @@ The goal of this assignment is to give you experience fitting and interpreting s
 
 
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/state-education.csv)
-- [[Data Codebook]](http://zief0002.github.io/epsy-8251/codebooks/state-education.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/state-education.csv)
+- [[Data Codebook]](https://zief0002.github.io/miniature-garbanzo/codebooks/state-education.html)
 
 
 ```{r echo=FALSE, out.width="60%", fig.align='center'}

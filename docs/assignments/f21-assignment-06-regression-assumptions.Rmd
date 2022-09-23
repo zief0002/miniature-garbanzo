@@ -23,8 +23,8 @@ Research. Teaching. Service. The trifecta upon which that almost every universit
 
 For this part of the assignment, you will examine whether instructor attractiveness explains differences in course evaluation scores---and thus on earnings differences. To do so, you will use the data in the *evaluations.csv* file to fit a regression model that uses professors' beauty ratings to predict the variation in course evaluation ratings.
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/evaluations.csv)
-- [[Data Codebook]](http://zief0002.github.io/epsy-8251/codebooks/evaluations.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/evaluations.csv)
+- [[Data Codebook]](https://zief0002.github.io/miniature-garbanzo/codebooks/evaluations.html)
 
 
 Fit the regression model to predict the variation in course evaluation ratings using professors’ beauty ratings. You will use the output from the fitted model to answer the questions in Part I.

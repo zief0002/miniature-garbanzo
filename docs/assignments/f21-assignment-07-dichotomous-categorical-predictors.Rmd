@@ -10,8 +10,8 @@ output:
 
 This goal of this assignment is to give you experience fitting and interpreting regression models with categorical predictors. For this assignment, you will again examine whether there are differences in course evaluation scores---and thus on earnings differences---between native and non-native English speaking professors. To do so, you will use the data in the *evaluations.csv* file to fit a series of regression models to predict the variation in course evaluation ratings.
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/evaluations.csv)
-- [[Data Codebook]](http://zief0002.github.io/epsy-8251/codebooks/evaluations.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/evaluations.csv)
+- [[Data Codebook]](https://zief0002.github.io/miniature-garbanzo/codebooks/evaluations.html)
 
 
 ```{r echo=FALSE, out.width="60%", fig.align='center'}

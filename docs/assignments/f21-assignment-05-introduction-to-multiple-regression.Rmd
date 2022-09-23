@@ -13,8 +13,8 @@ Human overpopulation is a growing concern and has been associated with depletion
 
 Fertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file *fertility.csv* to fit three models in order to explore the effects of contraceptive use on fertility rates. 
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/epsy-8251/main/data/fertility.csv)
-- [[Data Codebook]](http://zief0002.github.io/epsy-8251/codebooks/fertility.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/fertility.csv)
+- [[Data Codebook]](https://zief0002.github.io/miniature-garbanzo/codebooks/fertility.html)
 
 
 ```{r echo=FALSE, out.width="60%", fig.align='center'}
