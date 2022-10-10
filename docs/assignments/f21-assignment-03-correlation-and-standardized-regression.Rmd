@@ -60,7 +60,7 @@ $$
 6. Explain how the intercept of the uncentered regression you found in the previous assignment will compare to the intercept of the regression if we regressed SAT scores on the centered teacher salaries by making reference to the values in the mathematical formula for intercept, which is:
 
 $$
-\hat\beta_0 = \bar{Y} - \beta_1(\bar{X})
+\hat\beta_0 = \bar{Y} - \hat\beta_1(\bar{X})
 $$
 
 7. Regress SAT scores on the centered teacher salaries. Write the *fitted equation* using Equation Editor (or some other program that correctly types mathematical expressions). (You should be able to now check your previous response as well.)
