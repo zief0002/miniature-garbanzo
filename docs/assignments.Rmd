@@ -50,7 +50,8 @@ Below are the due dates for the assignments, as well as links to each assignment
 </tr>
 
 <tr>
-<td>Assignment \#4: *Simple Regression: Inference*</td>
+<td>Assignment \#4: *Simple Regression: Inference*<br />
+<span style="margin-left:20px; color:red;">*[Updated 10-11-2023]*</span>
 <!-- <td>Oct. 22</td> -->
 <td>Oct. 26</td>
 <td align="center" style="vertical-align:middle;">

@@ -42,6 +42,7 @@ p1 = ggplot( data = keith, aes(x = homework, y = gpa) ) +
 
 
 # Plot scatterplot and density plots on single graph
+# This function is in the ggExtra package
 ggMarginal(p1, margins = "both", type = "density")
 
 
