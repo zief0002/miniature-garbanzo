@@ -126,7 +126,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Simple Linear Regression: Description
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/slrd.html#slrd)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/slrd.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/04-simple-linear-regression-description.R)
@@ -149,7 +149,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;">Ordinary Least Squares (OLS) Estimation
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/ordinary-least-squares-ols-estimation.html#ordinary-least-squares-ols-estimation)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/ordinary-least-squares-ols-estimation.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/05-ordinary-least-squares-estimation.R)
@@ -166,7 +166,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Correlation and Standardized Regression</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/cor.html#cor)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/cor.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/06-correlation-and-standardized-regression.R)
@@ -189,7 +189,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Coefficient-Level Inference</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/coefinf.html#coefinf)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/coefinf.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/07-coefficient-level-inference.R)
@@ -213,7 +213,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Model-Level Inference</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/modinf.html#modinf)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/modinf.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/08-model-level-inference.R)
@@ -245,7 +245,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Introduction to Multiple Linear Regression</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/multreg.html#multreg)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/multreg.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/09-introduction-to-multiple-regression.R)
@@ -269,7 +269,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Understanding Statistical Control</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/statcontrol.html#statcontrol)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/statcontrol.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/10-understanding-statistical-control.R)
@@ -306,7 +306,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Assumptions of the Regression Model</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/assumptions.html#assumptions)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/assumptions.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/11-distributional-assumptions-underlying-the-regression-model.R)
@@ -339,7 +339,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Dummy Coding Categorical Predictors</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/dummy.html#dummy)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/dummy.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/12-dummy-coding-categorical-predictors.R)
@@ -362,7 +362,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;">Polychotomous Categorical Predictors</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/polychotomous.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
@@ -379,7 +379,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;">Polychotomous Categorical Predictors</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/polychotomous.html#polychotomous)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/polychotomous.html)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
@@ -396,7 +396,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">Introduction to Interaction Effects</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-01.html#interaction-01)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/interaction-01.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/15-introduction-to-interaction-effects.R)
@@ -419,7 +419,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </td>
 <td style="vertical-align:middle;" rowspan="2">More Interaction Effects</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://zief0002.github.io/modeling/interaction-02.html#interaction-02)
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/interaction-02.html)
 </td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/16-more-interaction-effects.R)
