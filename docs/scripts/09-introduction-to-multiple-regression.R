@@ -137,7 +137,7 @@ mod_3 = tidy(lm.c) %>%
 
 
 # Combine into single data frame
-all_models = rbind(mod_1, mod_2, mod_3)
+all_models = rbind(mod_3, mod_2, mod_1)
 
 
 # Create plot
@@ -147,6 +147,18 @@ dwplot(all_models, show_intercept = FALSE) +
   scale_x_continuous(name = "Estimate") +
   scale_y_discrete(name = "Coefficients", labels = c("Seniority", "Education")) +
   facet_wrap(~model) +
-  guides(color = FALSE)
+  guides(color = "none")
+
+
+
+# Fix Backwards facets
+dwplot(all_models, show_intercept = FALSE, 
+       model_order = c("Model C", "Model B", "Model A")) +
+  theme_bw() +
+  scale_color_manual(name = "Model", values = c("#c62f4b", "#c62f4b", "#c62f4b")) +
+  scale_x_continuous(name = "Estimate") +
+  scale_y_discrete(name = "Coefficients", labels = c("Seniority", "Education")) +
+  facet_wrap(~model) +
+  guides(color = "none")
 
 

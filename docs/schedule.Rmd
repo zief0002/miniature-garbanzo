@@ -283,24 +283,24 @@ Below is the tentative schedule for the class. The dates are subject to change a
 </tr>
 
 
-<tr>
-<td align="center" style="vertical-align:middle;"></td>
-<!-- <td>Sept. 24</td> -->
-<td>Nov. 07</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a href="preparation.html#control"> -->
-  <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
-  <!-- </a> -->
-</td>
-<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day --- Andy at a conference*
-<td align="center" style="vertical-align:middle;"></td>
-<td align="center" style="vertical-align:middle;"></td>
-</tr>
+<!-- <tr> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- <!-- <td>Sept. 24</td> --> -->
+<!-- <td>Nov. 07</td> -->
+<!-- <td align="center" style="vertical-align:middle;"> -->
+<!--   <!-- <a href="preparation.html#control"> --> -->
+<!--   <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> --> -->
+<!--   <!-- </a> --> -->
+<!-- </td> -->
+<!-- <td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day --- Andy at a conference* -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- </tr> -->
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Oct. 31</td> -->
-<td>Nov. 09</td>
+<td>Nov. 07</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -316,7 +316,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 05</td> -->
-<td>Nov. 14</td>
+<td>Nov. 09</td>
 </tr>
 
 
@@ -333,7 +333,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 07</td> -->
-<td>Nov. 16</td>
+<td>Nov. 14</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -349,14 +349,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 12</td> -->
-<td>Nov. 21</td>
+<td>Nov. 16</td>
 </tr>
 
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 19</td> -->
-<td>Nov. 23</td>
+<td>Nov. 21</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -367,6 +367,21 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <td align="center" style="vertical-align:middle;">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
 </td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Sept. 24</td> -->
+<td>Nov. 23</td>
+<td align="center" style="vertical-align:middle;">
+  <!-- <a href="preparation.html#control"> -->
+  <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
+  <!-- </a> -->
+</td>
+<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day --- Andy at a conference*
+<td align="center" style="vertical-align:middle;"></td>
+<td align="center" style="vertical-align:middle;"></td>
 </tr>
 
 
