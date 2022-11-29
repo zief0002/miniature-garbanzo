@@ -306,16 +306,22 @@ mn %>%
   correlate() %>%
   fashion(decimals = 3)
 
+mn2 = mn |>
+  filter(!name %in% c("Crossroads College", "Martin Luther College"))
+
+
+
 
 # Fit regression model
-lm.f = lm(grad ~ 1 + sat + tuition + private, data = mn)
+lm.f = lm(grad ~ 1 + sat + tuition + private, data = mn2)
 
 print(glance(lm.f), width = Inf) # Model-level
 tidy(lm.f)                       # Coefficient-level info
 
 
 # Obtain the fitted values and residuals
-aug_f = augment(lm.f)
+aug_f = augment(lm.f) |>
+  mutate(school = mn2$name)
 
 
 # View augmented data frame
@@ -333,11 +339,17 @@ ggplot(data = aug_f, aes(x = .std.resid)) +
 
 # Scatterplot of the standardized residuals versus the fitted values
 ggplot(data = aug_f, aes(x = .fitted, y = .std.resid)) +
-  geom_point() +
+  geom_point(size = 5) +
+  #geom_text(aes(label = school)) +
+  geom_smooth(method = "loess", se = TRUE) +
   geom_hline(yintercept = 0) +
   theme_bw() +
   xlab("Fitted value") +
   ylab("Standardized residual")
+
+
+ggplot(data = mn, aes(x = sat, y = grad)) +
+  geom_point(size = 5) +
 
 
 

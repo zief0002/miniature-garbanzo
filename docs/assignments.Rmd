@@ -95,7 +95,7 @@ Below are the due dates for the assignments, as well as links to each assignment
   <!-- <span style="margin-left:20px; color:red;">*[Updated 11-12-2019]*</span> -->
   </td>
 <!-- <td>Dec. 03</td> -->
-<td>Dec. 06</td>
+<td>Dec. 07</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/f21-assignment-08-polychotomous-categorical-predictors.html)
 </td>

@@ -379,7 +379,7 @@ Below is the tentative schedule for the class. The dates are subject to change a
   <!--   <span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span> -->
   <!-- </a> -->
 </td>
-<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day --- Andy at a conference*
+<td style="vertical-align:middle;">*NO CLASS&mdash;Mental Health Day*
 <td align="center" style="vertical-align:middle;"></td>
 <td align="center" style="vertical-align:middle;"></td>
 </tr>
@@ -389,14 +389,14 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Nov. 19</td> -->
 <td>Nov. 28</td>
-<td align="center" style="vertical-align:middle;">
+<td align="center" style="vertical-align:middle;"  rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
-<td style="vertical-align:middle;">Polychotomous Categorical Predictors</td>
-<td align="center" style="vertical-align:middle;">
+<td style="vertical-align:middle;"  rowspan="2">Polychotomous Categorical Predictors</td>
+<td align="center" style="vertical-align:middle;"  rowspan="2">
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](https://epsy-8251.netlify.app/polychotomous.html)
 </td>
-<td align="center" style="vertical-align:middle;">
+<td align="center" style="vertical-align:middle;"  rowspan="2">
   [<span class="fa fa-code" style="color: #ff2600; font-size: 20px;"></span>](scripts/14-polychotomous-categorical-predictors.R)
 </td>
 </tr>
@@ -404,8 +404,15 @@ Below is the tentative schedule for the class. The dates are subject to change a
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
-<!-- <td>Nov. 26</td> -->
+<!-- <td>Nov. 05</td> -->
 <td>Nov. 30</td>
+</tr>
+
+
+<tr>
+<td align="center" style="vertical-align:middle;"></td>
+<!-- <td>Nov. 26</td> -->
+<td>Dec. 05</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -422,13 +429,13 @@ Below is the tentative schedule for the class. The dates are subject to change a
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Dec. 03</td> -->
-<td>Dec. 05</td>
+<td>Dec. 07</td>
 </tr>
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <!-- <td>Dec. 09</td> -->
-<td>Dec. 07</td>
+<td>Dec. 12</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-book" style="color: #ff2600; font-size: 20px;"></span>](#readings)
 </td>
@@ -443,18 +450,18 @@ Below is the tentative schedule for the class. The dates are subject to change a
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Dec. 12</td>
-</tr>
-
-
-<tr>
-<td align="center" style="vertical-align:middle;"></td>
 <td>Dec. 14</td>
-<td align="center" style="vertical-align:middle;"></td>
-<td style="vertical-align:middle;">TBA</td>
-<td align="center" style="vertical-align:middle;"></td>
-<td align="center" style="vertical-align:middle;"></td>
 </tr>
+
+
+<!-- <tr> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- <td>Dec. 14</td> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- <td style="vertical-align:middle;">TBA</td> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- <td align="center" style="vertical-align:middle;"></td> -->
+<!-- </tr> -->
 
 </tbody>
 </table>    
