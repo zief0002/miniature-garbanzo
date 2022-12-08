@@ -103,7 +103,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 
 
 <tr>
-<td>Assignment \#9: *Interaction Models*</td>
+<td>Optional Assignment \#9: *Interaction Models*</td>
 <td>Dec. 16 (due at 12:00pm)</td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/f21-assignment-09-interactions.html)

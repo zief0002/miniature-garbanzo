@@ -62,8 +62,9 @@ work %>%
 
 
 # Correlation matrix
-work %>%
-  correlate() %>%
+work |>
+  select(bound_span_work, female, authority, married) |>
+  correlate() |>
   fashion(decimals = 2)
 
 
